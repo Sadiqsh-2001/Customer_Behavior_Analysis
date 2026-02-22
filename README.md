@@ -13,29 +13,32 @@ Clean and transform the data
 Execute SQL queries in PostgreSQL
 Build an interactive Power BI dashboard
 Create a final analytical report
-Present findings using a PPT (created with Gamma)
+Present findings using a PPT
 This project highlights practical data analysis skills aligned with real-world business scenarios.
 
 2. Dataset
 
-Source: [Mention source – e.g., Kaggle / Internal dataset / Public dataset]
+Source: Public dataset
 Format: CSV
-Records: [Number of rows]
-Features: [Number of columns]
+Records: 3900
+Features: 18
 The dataset includes structured business data such as:
 Customer information
-Transactions / Sales
-Product details
-Dates and categories
+CustomerID	Age	Gender	
+Item Purchased	Category
+Purchase Amount
+Location
+Subscription
+
 The data required cleaning, transformation, and validation before analysis.
 
 3. Tools & Technologies
 Tool	Purpose
-Python (Pandas, NumPy, Matplotlib, Seaborn)	Data loading, cleaning, EDA
+Python (Pandas, NumPy)	Data loading, cleaning, EDA
 PostgreSQL	Running analytical SQL queries
 Power BI	Dashboard creation & visualization
-Gamma	Presentation (PPT) creation
-Excel (Optional)	Quick validation & checks
+AI PPT creation
+Excel	Quick validation & checks
 
 5. Project Steps
 
@@ -47,16 +50,14 @@ Identified missing values and data types
 Step 2: Exploratory Data Analysis (EDA)
 Distribution analysis
 Outlier detection
-Correlation analysis
 Category-wise performance comparison
-Trend analysis over time
 
 Step 3: Data Cleaning
 Removed duplicates
 Handled missing values
-Standardized formats (dates, text)
+Standardized formats
 Corrected inconsistent values
-Created derived columns (if required)
+Created derived columns
 
 Step 4: SQL Analysis (PostgreSQL)
 Imported cleaned dataset into PostgreSQL
@@ -70,39 +71,23 @@ Extracted insights for reporting
 Step 5: Power BI Dashboard
 Connected to PostgreSQL / cleaned dataset
 Built interactive visuals:
-KPI cards
 Trend charts
 Category comparisons
-Filters & slicers
+slicers
 Focused on business storytelling
 
-Step 6: Reporting & Presentation
-Documented insights in a structured report
-Created a professional presentation using Gamma
-Highlighted:
-Key findings
-Business impact
-Recommendations
 
 5. Dashboard
 
 The Power BI dashboard includes:
 📈 Revenue / Performance trends
 📊 Category-wise breakdown
-🧮 Key KPIs (Total Sales, Avg Value, Growth %)
+🧮 Key KPIs (Total Sales, Revenue, Demographic)
 🎯 Filters for dynamic analysis
-The dashboard is designed for business stakeholders to make data-driven decisions quickly.
+The dashboard is designed for business stakeholders to make data-driven decisions.
 
-6. Key Results & Insights
 
-Identified top-performing categories/products
-Highlighted seasonal trends
-Detected underperforming segments
-Provided recommendations for revenue improvement
-Quantified performance differences using SQL-based metrics
-This project demonstrates the ability to move from raw data to actionable business insights.
-
-7. How to Run This Project
+6. How to Run This Project
 1️⃣ Clone the Repository
 git clone <repository_link>
 cd <project_folder>
