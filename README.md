@@ -89,8 +89,8 @@ The dashboard is designed for business stakeholders to make data-driven decision
 
 6. How to Run This Project
 1️⃣ Clone the Repository
-git clone <repository_link>
-cd <project_folder>
+git clone (https://github.com/Sadiqsh-2001/Customer_Behavior_Analysis)
+
 2️⃣ Install Required Python Libraries
 pip install pandas numpy psycopg2 sqlalchemy
 3️⃣ Run Python Notebook / Script
